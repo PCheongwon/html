@@ -36,25 +36,10 @@ section .title p {
 /* header */
 header {}
 header .inner {
-/*     height: 100px;
+    height: 100px;
     display: flex;
     justify-content: space-between;
-    align-items: center;  */
-
-    width: 100%;
-    height: 100px;
-    background-color: rgba(0, 0, 0, 0.669);
-    color: #fff;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 9;
-    text-align: center;
-    line-height: 100px;
-    display: flex;
     align-items: center;
-    justify-content: space-between;    
-    padding: 10px 30px;
 }
 header .inner h1 {
     font-size: 20px;
@@ -75,7 +60,6 @@ header .inner nav ul li a {
 .main_visual {
     height: calc(100vh - 100px);
     position: relative;
-    background-color: rgb(0, 0, 0);
 }
 .main_visual img {
     width: 100%;
@@ -179,7 +163,7 @@ header .inner nav ul li a {
     position: absolute;
     top: 23px;
     left: 26px;
-    width: 92%;
+    width: 94%;
 
 
 }
@@ -264,8 +248,8 @@ header .inner nav ul li a {
 }
 .cont03 .list {
     height: 85vh;
-/*     display: flex;
-    justify-content: space-between; */
+    display: flex;
+    justify-content: space-between;
 }
 .cont03 .list .item {
     margin: 0 10px;
@@ -275,45 +259,42 @@ header .inner nav ul li a {
     overflow: hidden;
 }
 .cont03 .list .item::before {
-/*     content: '';
+    content: '';
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.571);
     position: absolute;
     bottom: -100px;
     left: 0;
-    transition: 0.5s; */
+    transition: 0.5s;
 }
 
 .cont03 .list .item:hover::before{
-/*     bottom: 0; */
+    bottom: 0;
 }
  
 .cont03 .list .item:hover .info {
-/*     background-color: transparent;
-    color: #fff; */
+    background-color: transparent;
+    color: #fff;
 }
 .cont03 .list .item:hover .info a {
-/*     color: #333; */
+    color: #333;
 }
 
 .cont03 .list .item img {
-/*     width: 100%;
+    width: 100%;
     height: 100%;
-    object-fit: cover; */
-
-    width: 450px;
-    height: 250px;
+    object-fit: cover;
 }
 .cont03 .list .item .info {
-/*     width: 100%;
+    width: 100%;
     transition: 0.5s;
     position: absolute;
     left: 0%;
     bottom: 0;
     background-color: #fff;
     padding: 50px;
-    word-break: keep-all; */
+    word-break: keep-all;
 }
 .cont03 .list .item .info h4 {
     font-size: 30px;
